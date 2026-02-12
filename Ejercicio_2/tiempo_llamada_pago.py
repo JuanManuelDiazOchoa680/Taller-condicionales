@@ -18,7 +18,7 @@ T=int(input("Digite el tiempo de llamada: "))
 #----------
 
 if(T<=3):
-    Rta=500
+    Rta=500 + str("pesos")
 
 else:
     Ta=T-3
@@ -31,5 +31,7 @@ else:
 print("                             ")
 print("      Resultados     ")
 print("                          ")
+print("Duracion de la llamada: " +str(T) +str(" min"))
+print("                                        ")
 print("El costo de la llamada es: " +str(Rta))
 print("                                           ")
